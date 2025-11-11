@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charita Challa - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Starfield Background -->
+    <div class="starfield">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Charita Challa</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <!-- <li><a href="#projects" class="nav-link">Projects</a></li> -->
+                <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Charita Challa</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Developer</h2>
+                <p class="hero-description">
+                    Crafting elegant solutions in the realm of full-stack development, 
+                    machine learning, and cloud technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <!-- <a href="#resume" class="btn btn-secondary">View Resume</a> -->
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="floating-star star-1">✦</div>
+                    <div class="floating-star star-2">✧</div>
+                    <div class="floating-star star-3">⋆</div>
+                    <div class="floating-star star-4">✦</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a software developer with professional experience in Java, Python, C++, and JavaScript. 
+                        I have profound knowledge of databases like MySQL, PostgreSQL and MongoDB. I'm skilled in 
+                        frameworks and tools such as Spring Boot, Flask, React, and Node.js.
+                    </p>
+                    <p class="about-description">
+                        I'm currently pursuing my Master's in Computer Science at San Jose State University, 
+                        where I continue to expand my knowledge and explore new technologies.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Flask</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="tag">AWS SageMaker</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Predictive Models</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Jenkins</span>
+                        <span class="tag">Ansible</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">AWS S3</span>
+                        <span class="tag">Kinesis</span>
+                        <span class="tag">Lambda</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineering Intern</h3>
+                            <span class="timeline-date">June 2025 – August 2025</span>
+                        </div>
+                        <h4>Antora Energy • San Jose, CA</h4>
+                        <ul class="timeline-achievements">
+                            <li>Designed and implemented a full-stack IoT data pipeline integrating Ignition SCADA, HiveMQ, AWS S3, SageMaker, Lambda, and Kinesis to control battery charging based on wind energy predictions.</li>
+                            <li>Built a traceability system in Python to link battery testing time-series data with unique component identifiers, leading to improved battery design through granular performance analysis.</li>
+                            <li>Automated daily logging alerts using Jython scripts to monitor system anomalies.</li>
+                            <li>Managed secure IAM roles and fine-grained access policies to support cross-functional collaboration with external vendors while ensuring least-privilege access.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Engineer</h3>
+                            <span class="timeline-date">June 2022 – June 2024</span>
+                        </div>
+                        <h4>Signify (Philips Lighting)</h4>
+                        <ul class="timeline-achievements">
+                            <li>Spearheaded development of a Java-based data migration system to restructure and periodically transfer data from 500+ IoT devices, enabling scalable onboarding within smart city infrastructure.</li>
+                            <li>Created a diagnostics platform using Python, AWS Athena, S3, and RDS with Grafana dashboards, automating detection of system issues.</li>
+                            <li>Engineered a simulation framework in Java for performance forecasting and fault-tolerant deployment of over 1 million smart streetlights.</li>
+                            <li>Refactored REST APIs with pagination and MySQL views, cutting response latency by 87% and improving backend reliability.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Intern</h3>
+                            <span class="timeline-date">Aug 2021 – June 2022</span>
+                        </div>
+                        <h4>Signify (Philips Lighting)</h4>
+                        <ul class="timeline-achievements">
+                            <li>Built and deployed a cloud-to-on-premise data migration tool using VM optimization, Shell scripting, and Ansible.</li>
+                            <li>Developed a full-stack app using Angular, Java, and JAXB to process SOAP payloads into AWS S3, enhancing traceability and reducing query time by 60%.</li>
+                            <li>Automated Jenkins CI/CD pipelines, increasing developer velocity by 70% by removing manual deployment bottlenecks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Master of Science in Computer Science</h3>
+                            <span class="timeline-date">Aug 2024 – May 2026</span>
+                        </div>
+                        <h4>San Jose State University</h4>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.Tech and M.Tech in Software Engineering</h3>
+                            <span class="timeline-date">July 2017 – July 2022</span>
+                        </div>
+                        <h4>Vellore Institute of Technology</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>LetMeTeachYouLeetcode</h3>
+                    </div>
+                    <p class="project-description">
+                        An educational platform designed to help people learn to solve LeetCode problems 
+                        through interactive tutorials and step-by-step guidance.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Educational Platform</span>
+                        <span class="tech-tag">Algorithm Teaching</span>
+                        <span class="tech-tag">Interactive Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="volunteer">
+        <div class="container">
+            <h2 class="section-title">Volunteer Work</h2>
+            <div class="volunteer-content">
+                <div class="volunteer-card">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>IEEE EPS SJSU Student Chapter</h3>
+                    <p class="volunteer-role">Treasurer</p>
+                    <p class="volunteer-description">
+                        Contributing to the IEEE Electronic Packaging Society student chapter at San Jose State University, 
+                        managing financial operations and supporting educational initiatives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p class="resume-description">
+                    Download my complete resume to learn more about my experience, skills, and achievements.
+                </p>
+                <a href="#" class="btn btn-primary resume-download" id="downloadResume">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>charitachalla7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>San Jose, CA, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/charita-challa/" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Charita Challa. Crafted with magic.</p>
+                <div class="footer-stars">
+                    <span>✦</span>
+                    <span>✧</span>
+                    <span>⋆</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
